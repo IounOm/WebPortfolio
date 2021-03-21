@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section id="header">
+        <div class="container">
+            <img src="image/nameiconwhite.png" class="logo">
+            <div class="header-text">
+                <h1>PORTFOLIO</h1>
+                <h3>Profile | Skill | Project</h3>
+                <span class="square"></span>
+                <p>This is a website that collects all works, activities 
+                and communication. For information to the viewers who enter 
+                this website.</p>
+                <button class="common-btn" onclick="location.href='#work'">See My Work</button>
+                <div class="line">
+                    <span class="line1"></span><br>
+                    <span class="line2"></span><br>
+                    <span class="line3"></span><br>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <nav id="sideNav">
+        <ul>
+            <li><a href="#header">HOME</a></li>
+            <li><a href="#Resume">PROFILE</a></li>
+            <li><a href="#work">SKILL</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+        </ul>
+    </nav>
+    <img src="image/fi-rr-align-right.svg" id="menuBtn" onclick="sideNavImg()">
+
+<!--profile -->
+
+<section id="Resume">
+    <div class="resume-left-col" data-aos="fade-right">
+        <img src="image/profileSquare.png">
+    </div>
+    <div class="resume-right-col">
+        <div class="resume-text">
+            <h1>Ioun Nirach "Om"</h1>
+            <span class="square"></span>
+            <p>Digital Media Technology</p><br>
+            <p>King Mongkut's University of Technology Thonburi</p><br>
+            <button class="common-btn">Read More</button><br><br>
+            <div class="line">
+                <span class="line1"></span><br>
+                <span class="line2"></span><br>
+                <span class="line3"></span><br>
+            </div>
+
+            <h2>"Programming isn't about what you know; it's about what you can figure out.”</h2>
+            <h3>----Chris Pine</h3>
+        </div>
+    </div>
+</section>
+
+<!--work -->
+
+<section id="work">
+    <div class="work-row">
+        <div class="work-col" data-aos="fade-up">
+            <img src="image/work/smartphone.svg">
+            <h4>Web | App Development</h4>
+            <p>Develop a website with HTML CSS JAVASCRIPT and app with XML JAVA language</p>
+        </div>
+        <div class="work-col" data-aos="fade-up"  data-aos-duration="1000">
+            <img src="image/work/controller.svg">
+            <h4>Game Development</h4>
+            <p>Develop games platform with C# language</p>
+        </div>
+        <div class="work-col" data-aos="fade-up"  data-aos-duration="2000">
+            <img src="image/work/hardware.svg" >
+            <h4>IOT Development</h4>
+            <p>Develop IOT device with C++ language</p>
+        </div>
+    </div>
+    
+    <div class="work-btn">
+        <div class="line">
+            <span class="line1"></span><br>
+            <span class="line2"></span><br>
+            <span class="line3"></span><br>
+        </div>
+        <button class="common-btn" onclick="window.location.href='project.html'">Read More</button>
+    </div>
+
+</section>
+
+<!-- contact -->
+
+<section id="contact">
+    <div class="container contact-row">
+        <div class="contact-left-col">
+            <div class="contact-text">
+                <h1>CONTACT</h1>
+                <span class="square"></span>
+                <h2>HOUSE ADDRESS</h2><br>
+                <p>55/230 Burirom village, Soi Wat Phra Ngoen Rd.
+                Plai Bang, Bang Kruai, Nonthaburi 11130, Thailand.
+                </p><br>
+                <h2>PHONES</h2><br>
+                <p>090-423-7440</p><br><br>
+                <div class="line">
+                    <span class="line1"></span><br>
+                    <span class="line2"></span><br>
+                    <span class="line3"></span><br>
+                </div>
+            </div>
+        </div>
+        <div class="contact-right-col">
+            <img src="image/contact/homemark.png" onclick="sideNavMap()" data-aos="zoom-in">
+        </div>
+    </div>
+</section>
+
+<div id="sideNavMap">
+    <div id="NavMap-up">
+        <button id="mapBtn" onclick="sideNavMap()">CLOSE</button>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3874.2308177592404!2d100.39439171544164!3d13.825173990299962!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTPCsDQ5JzMwLjYiTiAxMDDCsDIzJzQ3LjciRQ!5e0!3m2!1sth!2sth!4v1616058544047!5m2!1sth!2sth" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+</div>
+
+
+<!-- footer -->
+
+<section id="footer">
+    <div class="container footer-row">
+        <hr>
+        <div class="footer-left-col">
+            <div class="footer-links">
+                <div class="link-title">
+                    <h4>Home</h4>
+                    <small>Subject</small><br>
+                    <small>Source</small>
+                </div>
+                <div class="link-title">
+                    <h4>Profile</h4>
+                    <small>Information</small><br>
+                    <small>University</small>
+                </div>
+                <div class="link-title">
+                    <h4>Work</h4>
+                    <small>Project</small><br>
+                    <small>Activity</small><br>
+                    <small>Assignment</small>
+                </div>
+                <div class="link-title">
+                    <h4>Support</h4>
+                    <small>Contact Me</small><br>
+                </div>
+            </div>
+        </div>
+        <div class="footer-right-col">
+            <div class="footer-info">
+                <div class="copyright-text">
+                    <small>iounnirach@gmail.com</small><br>
+                    <small>copyright 2020</small><br>
+                    <small>Ioun portfolio</small>
+                </div>
+                <div class="footer-logo">
+                    <img src="image/nameiconwhite.png">
+                    <!-- <button class="common-btn">English</button> -->
+                </div>
+            </div>
+        </div>
+        <hr id="ref-column">
+        <div class="ref">Icons made by <a href="https://www.flaticon.com/authors/pixel-perfect" title="Pixel perfect">Pixel perfect</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+        <div class="ref">Animate On Scroll by <a href="https://michalsnik.github.io/aos/?ref=teerapuch" title="Pixel perfect">michalsnik</a> from <a href="https://github.com/" title="Github">www.github.com</a></div>
+    </div>
+</section>
+
+<!-- social-icons -->
+
+<div class="social-icons">
+    <a href="https://www.facebook.com/iounom.iounnirach/" target="_blank"><img src="image/contact/045-facebook.svg"></a>
+    <a href="http://line.me/ti/p/~iounom" target="_blank"><img id="lineicon" src="image/contact/line.svg"></a>
+    <a href="https://twitter.com/IounOm" target="_blank"><img src="image/contact/013-twitter-1.svg"></a>
+    <a href="mailto:iounnirach15@gmail.com" target="_blank"><img src="image/contact/email.svg"></a>
+</div>
+
+    <script src='style.js'></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>

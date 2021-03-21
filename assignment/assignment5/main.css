@@ -1,0 +1,57 @@
+body{
+    background-image: url(https://cdn.hipwallpaper.com/i/29/65/v9k7jy.jpg);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 100vh;
+    color: white;
+    background-size: cover;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.blogger{
+    display: block;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.image img{
+    width: 50%;
+    margin-top: 50px;
+    border-radius: 50px;
+    opacity: 50%;
+}
+#topic, #comment1, #comment2{
+    padding: 10px 100px 10px 100px;
+    background-color: rgba(127, 255, 212, 0);
+    border: 2px solid white;
+    border-radius: 25px;
+}
+input{
+    border: 2px solid rgba(0, 0, 0, 0.116);
+    border-radius: 25px;
+    margin-bottom: 10px;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.658);
+    padding: 10px 100px 10px 100px;
+}
+button{
+    margin-bottom: 10px;
+    padding: 10px 73px 10px 73px;
+    border-radius: 25px;
+    background-color: rgba(255, 255, 255, 0.945);
+    border: 2px solid rgba(58, 58, 58, 0.603);
+}
+
