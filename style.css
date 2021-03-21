@@ -693,3 +693,20 @@ hr{
         font-size: 14px;
     }
 }
+
+/* ********************************* resume.html ********************************* */
+
+.resume{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+}
+.resume h1{
+    padding: 20px;
+}
+#resumeimg{
+    width: 100%;
+}
