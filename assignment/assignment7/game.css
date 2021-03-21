@@ -1,5 +1,6 @@
 body{
-    background-color: rgb(184, 208, 243);
+    background-color: rgb(60, 82, 116);
+    font-family: 'Varela Round', sans-serif;
 }
 .container{
     display: flex;
@@ -16,30 +17,54 @@ fieldset{
     display: flexbox;
     flex-direction: column;
     color: white;
-    border:  2px  solid rgb(40, 187, 77);
+    border:  3px  solid rgb(40, 187, 77);
 }
 #game-layer {
     position: relative;
     width: 500px;
     height: 500px;
     
-    border: 3px solid black;
+    border: 3px solid rgb(177, 103, 103);
 }
 
+legend{
+    font-size: 30px;
+}
 .square {
     position: absolute;
     width: 25px;
     height: 25px;
     border: 1px solid black;
 }
-
+#numbox{
+    border: none;
+    border-radius: 25px;
+    padding: 5px 5px 5px 5px;
+}
+#color{
+    padding: 5px 10px 5px 10px;
+    border: none;
+    border-radius: 25px;
+    background-color: white;
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+}
+#start{
+    padding: 5px 30px 5px 30px;
+    border: none;
+    border-radius: 25px;
+    background-color: tomato;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
 .red{
     background-color: red; 
 }
 .blue{
     background-color: blue; 
 }
-
 .green{
     background-color: green; 
 }
